@@ -41,15 +41,15 @@ An open network for secure, decentralized communication
 
 Users join a homeserver on a particular domain. All homeservers can federate with each other.
 
-![bg right 60%](images/dencentalised.png)
+![bg right 60%](img/dencentalised.png)
 
 ---
 
-![bg contain](images/Matrix-Diagram.png)
+![bg contain](img/Matrix-Diagram.png)
 
 ---
 
-![bg contain](images/Matrix-Diagram2.png)
+![bg contain](img/Matrix-Diagram2.png)
 
 ---
 
@@ -61,19 +61,19 @@ Messages are by default encrypted using Olm, based on Signal's Double Ratchet Al
 
 ---
 
-![bg contain](images/double-ratchet.png)
+![bg contain](img/double-ratchet.png)
 
 ---
 
 <!-- backgroundColor: #2a3339 -->
 
-![bg contain 70%](images/decrypted.png)
+![bg contain 70%](img/decrypted.png)
 
 ---
 
 <!-- backgroundColor: #2a3339 -->
 
-![bg contain 100%](images/encrypted.png)
+![bg contain 100%](img/encrypted.png)
 
 ---
 
@@ -92,7 +92,7 @@ Client:
 
 `POST /_matrix/client/v3/rooms/{roomId}/invite`
 
-![bg left 90%](images/Pre-join.png)
+![bg left 90%](img/Pre-join.png)
 
 ---
 
@@ -104,7 +104,7 @@ Server:
 
 `PUT /_matrix/federation/v1/send_join/{roomId}/{eventId}`
 
-![bg left 90%](images/Matrix-Diagram2.png)
+![bg left 90%](img/Matrix-Diagram2.png)
 
 ---
 
@@ -119,7 +119,7 @@ The Appservice API allows dedicated applications to act as bridges to other plat
 
 ---
 
-![bg contain](images/Matrix-Diagram3.png)
+![bg contain](img/Matrix-Diagram3.png)
 
 ---
 
