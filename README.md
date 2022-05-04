@@ -31,7 +31,7 @@ An open network for secure, decentralized communication
 - _Decentralised_
 - _Secure_
 - _Persistent_
-  - Participating Servers all replicate the history of a given Matrix Room, no one server "_owns_" the room.
+- _Interoperable_
 
 ---
 
@@ -110,12 +110,12 @@ Server:
 
 # Matrix is... Interoperable
 
-The Appservice API allows dedicated applications to act as bridges to other platform. <br> For example:
+The Appservice API allows dedicated applications to act as bridges to other platforms. <br> For example:
 
-- WhatsApp
-- Signal
-- Slack
-- Discord
+- WhatsApp (https://github.com/mautrix/whatsapp)
+- Signal (https://github.com/mautrix/signal)
+- Slack (https://github.com/matrix-org/matrix-appservice-slack)
+- Discord (https://github.com/Half-Shot/matrix-appservice-discord)
 
 ---
 
