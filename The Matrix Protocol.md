@@ -29,9 +29,7 @@ An open network for secure, decentralized communication
 ### Matrix is..
 
 - _Decentralised_
-  - Users have a homeserver on a particular domain, and all homeservers can federate with each other
 - _Secure_
-  - Messages are by default encrypted using Olm, based on Signal's Double Ratchet Algorithm
 - _Persistent_
   - Participating Servers all replicate the history of a given Matrix Room, no one server "_owns_" the room.
 
@@ -39,7 +37,11 @@ An open network for secure, decentralized communication
 
 <!-- _class: lead -->
 
-# Matrix Network Topology
+# Matrix is... Decentralised
+
+Users join a homeserver on a particular domain. All homeservers can federate with each other.
+
+![bg right 60%](images/dencentalised.png)
 
 ---
 
@@ -51,4 +53,82 @@ An open network for secure, decentralized communication
 
 ---
 
+<!-- _class: lead -->
+
+# Matrix is... Secure
+
+Messages are by default encrypted using Olm, based on Signal's Double Ratchet Algorithm
+
+---
+
+![bg contain](images/double-ratchet.png)
+
+---
+
+<!-- backgroundColor: #2a3339 -->
+
+![bg contain 70%](images/decrypted.png)
+
+---
+
+<!-- backgroundColor: #2a3339 -->
+
+![bg contain 100%](images/encrypted.png)
+
+---
+
+<!-- backgroundColor: white -->
+<!-- _class: lead -->
+
+# Matrix is ... Persistent
+
+Participating Servers all replicate the history of a given Matrix Room, no one server "_owns_" the room.
+
+---
+
+Room: `#example-room:example.com`
+
+Client:
+
+`POST /_matrix/client/v3/rooms/{roomId}/invite`
+
+![bg left 90%](images/Pre-join.png)
+
+---
+
+Client:
+
+`POST /_matrix/client/v3/rooms/{roomId}/invite`
+
+Server:
+
+`PUT /_matrix/federation/v1/send_join/{roomId}/{eventId}`
+
+![bg left 90%](images/Matrix-Diagram2.png)
+
+---
+
+# Matrix is... Interoperable
+
+The Appservice API allows dedicated applications to act as bridges to other platform. <br> For example:
+
+- WhatsApp
+- Signal
+- Slack
+- Discord
+
+---
+
 ![bg contain](images/Matrix-Diagram3.png)
+
+---
+
+<!-- _class: lead -->
+
+# Why Matrix?
+
+---
+
+<!-- _class: lead -->
+
+# Time for A Demo!
