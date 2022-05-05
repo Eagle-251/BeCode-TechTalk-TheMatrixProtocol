@@ -55,7 +55,7 @@ Users join a homeserver on a particular domain. All homeservers can federate wit
 
 <!-- _class: lead -->
 
-# Matrix is... Secure
+# Matrix is.... Secure
 
 Messages are by default encrypted using Olm, based on Signal's Double Ratchet Algorithm
 
